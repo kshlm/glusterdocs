@@ -1,233 +1,200 @@
 # Summary
 
--  [Quick Start Guide](./Quick-Start-Guide/Quickstart.md) - Start here if you are new to Gluster!
-
--  [Installation Guides](./Install-Guide/Overview.md) describes the prerequisites and provides step-by-instructions to install GlusterFS on various operating systems.
-
--  [Administration Guide](./Administrator Guide/README.md) - describes the configuration and management of GlusterFS. 
-
--  [GlusterFS Developer Guide](./Developer-guide/Developers Index.md) - describes how you can contribute to this open source project; built through the efforts of its dedicated, passionate community. 
-
--  [Upgrade Guide](./Upgrade-Guide/README.md) - if you need to upgrade from an older version of GlusterFS.
-
--  [Features](./Features/README.md) - Guides for the features in the new release.
-
--  [Release Notes](./release-notes/index.md) - Glusterfs Release Notes provides high-level insight into the improvements and  additions that have been implemented in various Glusterfs releases.
-
--  [Feature Plans](./Feature Planning/index.md) - Features planning documents.
-
--  [GlusterFS Tools](./GlusterFS Tools/README.md) - Guides for GlusterFS tools.
-
--  [Troubleshooting Guide](./Troubleshooting/README.md) - Guide for troubleshooting.
--  
-
 - [Home](./index.md)
 - [Getting started with GlusterFS](./Quick-Start-Guide/Quickstart.md)
   - [Terminologies](./Quick-Start-Guide/Terminologies.md)
   - [Architecture](./Quick-Start-Guide/Architecture.md)
 - [Install Guide](./Install-Guide/Overview.md)
-  - Common Criteria: Install-Guide/Common_criteria.md
-  - Quick start to Install: Install-Guide/Quick_start.md
-  - Setting up in virtual machines: Install-Guide/Setup_virt.md
-  - Setting up on physical servers: Install-Guide/Setup_Bare_metal.md
-  - Deploying in AWS: Install-Guide/Setup_aws.md
-  - Install: Install-Guide/Install.md
-  - Configure: Install-Guide/Configure.md
-- Administrator Guide:
-  - Index: Administrator Guide/README.md
-  - GlusterFS Introduction: Administrator Guide/GlusterFS Introduction.md
-  - Glossary: Administrator Guide/glossary.md
-  - Did You Know: Administrator Guide/Did You Know.md
-  - Storage Pools: Administrator Guide/Storage Pools.md
-  - Compiling RPMS: Administrator Guide/Compiling RPMS.md
-  - Managing the Gluster Service: Administrator Guide/Start Stop Daemon.md
-  - Gluster Console Guide: Administrator Guide/Console.md
-  - Access Control Lists: Administrator Guide/Access Control Lists.md
-  - Setting Up Clients: Administrator Guide/Setting Up Clients.md
-  - Setting Up Volumes: Administrator Guide/Setting Up Volumes.md
-  - Managing Volumes: Administrator Guide/Managing Volumes.md
-  - Building QEMU with gfapi For Debian Based Systems: Administrator Guide/Building QEMU With gfapi For Debian Based Systems.md
-  - GlusterFS Filter: Administrator Guide/GlusterFS Filter.md
-  - Resolving Peer Rejected State: Administrator Guide/Resolving Peer Rejected.md
-  - Logging: Administrator Guide/Logging.md
-  - Brick Naming Conventions: Administrator Guide/Brick Naming Conventions.md
-  - Geo Replication: Administrator Guide/Geo Replication.md
-  - Distributed Geo Replication: Administrator Guide/Distributed Geo Replication.md
-  - Directory Quota: Administrator Guide/Directory Quota.md
-  - Managing Snapshots: Administrator Guide/Managing Snapshots.md
-  - Monitoring Workload: Administrator Guide/Monitoring Workload.md
-  - Object Storage: Administrator Guide/Object Storage.md
-  - GlusterFS Cinder: Administrator Guide/GlusterFS Cinder.md
-  - GlusterFS Keystone Quickstart: Administrator Guide/GlusterFS Keystone Quickstart.md
-  - Hadoop: Administrator Guide/Hadoop.md
-  - Gluster On ZFS: Administrator Guide/Gluster On ZFS.md
-  - SSL: Administrator Guide/SSL.md
-  - Puppet Gluster: Administrator Guide/Puppet.md
-  - RDMA Transport: Administrator Guide/RDMA Transport.md
-  - GlusterFS iSCSI: Administrator Guide/GlusterFS iSCSI.md
-  - Linux Kernel Tuning: Administrator Guide/Linux Kernel Tuning.md
-  - Troubleshooting: Administrator Guide/Troubleshooting.md
-  - Network Configurations Techniques: Administrator Guide/Network Configurations Techniques.md
-  - Performance Testing: Administrator Guide/Performance Testing.md
-- Developers Guide:
-  - Developers Home: Developer-guide/Developers Index.md
-  - Simplified Development Workflow: Developer-guide/Simplified Development Workflow.md
-  - Development Workflow: Developer-guide/Development Workflow.md
-  - Coding Standards: Developer-guide/coding-standard.md
-  - Compiling RPMS: Developer-guide/Compiling RPMS.md
-  - Building GlusterFS: Developer-guide/Building GlusterFS.md
-  - Projects: Developer-guide/Projects.md
-  - Language Bindings: Developer-guide/Language Bindings.md
-  - Easy Fix Bugs: Developer-guide/Easy Fix Bugs.md
-  - Fixing issues for static code analysis: Developer-guide/Fixing issues reported by tools for static code analysis.md
-  - Backport Wishlist: Developer-guide/Backport Wishlist.md
-  - Backport Guidelines: Developer-guide/Backport Guidelines.md
-  - Adding File Operations: Developer-guide/adding-fops.md
-  - Automatic File Replication: Developer-guide/afr.md
-  - History of Locking in AFR: Developer-guide/afr-locks-evolution.md
-  - Seal heal Daemon: Developer-guide/afr-self-heal-daemon.md
-  - inode datastructure: Developer-guide/datastructure-inode.md
-  - iobuf datastructure: Developer-guide/datastructure-iobuf.md
-  - mem-pool datastructure: Developer-guide/datastructure-mem-pool.md
-  - gfapi Symbol Versions: Developer-guide/gfapi-symbol-versions.md
-  - Daemon Management Framework: Developer-guide/daemon-management-framework.md
-  - Block Device Translator: Developer-guide/bd-xlator.md
-  - Write Behind Translator: Developer-guide/write-behind.md
-  - Translator Development: Developer-guide/translator-development.md
-  - Storage/posix Translator: Developer-guide/posix.md
-  - Compression Translator: Developer-guide/network_compression.md
-  - Unit Tests in GlusterFS: Developer-guide/unittest.md
-  - Using Gluster Test Framework: Developer-guide/Using Gluster Test Framework.md
-  - Jenkins Infrastructure: Developer-guide/Jenkins Infrastructure.md
-  - Jenkins Manual Setup: Developer-guide/Jenkins Manual Setup.md
-  - Coredump Analysis: Developer-guide/coredump-analysis.md
-  - Bug Reporting Guidelines: Developer-guide/Bug Reporting Guidelines.md
-  - Bug Triage Guidelines: Developer-guide/Bug Triage.md
-  - Bug Report Life Cycle: Developer-guide/Bug report Life Cycle.md
-  - Guidelines for Maintainers: Developer-guide/Guidelines For Maintainers.md
-  - Versioning: Developer-guide/versioning.md
-  - GlusterFS Release Process: Developer-guide/GlusterFS Release process.md
-  - Bug Reporting Template: Developer-guide/Bug reporting template.md
-- Upgrade-Guide:
-  - Upgrade-Guide Index: Upgrade-Guide/README.md
-  - Upgrade to 3.5: Upgrade-Guide/upgrade_to_3.5.md
-  - Upgrade to 3.6: Upgrade-Guide/upgrade_to_3.6.md
-  - Upgrade to 3.7: Upgrade-Guide/Upgrade to 3.7.md
-- Features:
-  - Features List: Features/README.md
-  - AFR Arbiter Volumes: Features/afr-arbiter-volumes.md
-  - bitrot docs: Features/bitrot-docs.md
-  - bitrot memory usage: Features/memory-usage.md
-  - Object Versioning: Features/object-versioning.md
-  - shard: Features/shard.md
-  - upcall: Features/upcall.md
-  - quota object count: Features/quota-object-count.md
-  - nfs-ganesha integration: Features/glusterfs_nfs-ganesha_integration.md
-  - tiering: Features/tier.md
-  - trash_xlator: Features/trash_xlator.md
-  - AFR Statistics: Features/afr-statistics.md
-  - AFR ver1: Features/afr-v1.md
-  - Brick Failure Detection: Features/brick-failure-detection.md
-  - File Snapshot: Features/file-snapshot.md
-  - gfid Access: Features/gfid-access.md
-  - Quota Scalability: Features/quota-scalability.md
-  - readdir ahead: Features/readdir-ahead.md
-  - zerofill: Features/zerofill.md
-  - Distributed Hash Tables: Features/dht.md
-  - heal info and split brain resolution: Features/heal-info-and-split-brain-resolution.md
-  - libgfapi: Features/libgfapi.md
-  - Mount Gluster Volume using pNFS: Features/mount_gluster_volume_using_pnfs.md
-  - Non Uniform File Access: Features/nufa.md
-  - ovirt integration: Features/ovirt-integration.md
-  - qemu integration: Features/qemu-integration.md
-  - RDMA Connection Manager: Features/rdmacm.md
-  - Rebalance: Features/rebalance.md
-  - Server Quorum: Features/server-quorum.md
-  - Write Once Read Many: Features/worm.md
-  - Distributed Geo Replication: Features/distributed-geo-rep.md
-  - libgf Changelog: Features/libgfchangelog.md
-  - meta xlator: Features/meta.md
-- Release Notes:
-  - index: release-notes/index.md
-  - 3.7.1: release-notes/3.7.1.md
-  - 3.7.0: release-notes/3.7.0.md
-  - 3.6.3: release-notes/3.6.3.md
-  - 3.6.0: release-notes/3.6.0.md
-  - 3.5.4: release-notes/3.5.4.md
-  - 3.5.3: release-notes/3.5.3.md
-  - 3.5.2: release-notes/3.5.2.md
-  - 3.5.1: release-notes/3.5.1.md
-  - 3.5.0: release-notes/3.5.0.md
-- Feature Planning:
-  - index: Feature Planning/index.md
-  - New Feature Template: Feature Planning/Feature Template.md
-- Feature Planning 4.0:
-  - index: Feature Planning/GlusterFS 4.0/index.md
-  - DHT Scalability: Feature Planning/GlusterFS 4.0/dht-scalability.md
-  - Caching: Feature Planning/GlusterFS 4.0/caching.md
-  - Split Network: Feature Planning/GlusterFS 4.0/Split Network.md
-  - Better brick Management: Feature Planning/GlusterFS 4.0/Better Brick Mgmt.md
-  - Compression Dedup: Feature Planning/GlusterFS 4.0/Compression Dedup.md
-  - Composite Operations: Feature Planning/GlusterFS 4.0/composite-operations.md
-  - stat-xattr-cache: Feature Planning/GlusterFS 4.0/stat-xattr-cache.md
-  - Code Generation: Feature Planning/GlusterFS 4.0/code-generation.md
-  - Volgen rewrite: Feature Planning/GlusterFS 4.0/volgen-rewrite.md
-- Feature Planning 3.7:
-  - index: Feature Planning/GlusterFS 3.7/index.md
-  - Small File Performance: Feature Planning/GlusterFS 3.7/Small File Performance.md
-  - Data Classification: Feature Planning/GlusterFS 3.7/Data Classification.md
-  - Trash: Feature Planning/GlusterFS 3.7/Trash.md
-  - Object Count: Feature Planning/GlusterFS 3.7/Object Count.md
-  - SE Linux Integration: Feature Planning/GlusterFS 3.7/SE Linux Integration.md
-  - Exports and Netgroups Authentication: Feature Planning/GlusterFS 3.7/Exports and Netgroups Authentication.md
-  - Policy based Split-brain Resolution: Feature Planning/GlusterFS 3.7/Policy based Split-brain Resolution.md
-  - BitRot: Feature Planning/GlusterFS 3.7/BitRot.md
-  - Gnotify: Feature Planning/GlusterFS 3.7/Gnotify.md
-  - Improve Rebalance Performance: Feature Planning/GlusterFS 3.7/Improve Rebalance Performance.md
-  - Upcall Infrastructure: Feature Planning/GlusterFS 3.7/Upcall Infrastructure.md
-  - Gluster CLI for NFS Ganesha: Feature Planning/GlusterFS 3.7/Gluster CLI for NFS Ganesha.md
-  - Scheduling of Snapshot: Feature Planning/GlusterFS 3.7/Scheduling of Snapshot.md
-  - Sharding xlator: Feature Planning/GlusterFS 3.7/Sharding xlator.md
-  - HA for Ganesha: Feature Planning/GlusterFS 3.7/HA for Ganesha.md
-  - Clone of Snapshot: Feature Planning/GlusterFS 3.7/Clone of Snapshot.md
-  - Easy addition of Custom Translators: Feature Planning/GlusterFS 3.7/Easy addition of Custom Translators.md
-  - Outcast: Feature Planning/GlusterFS 3.7/Outcast.md
-  - rest-api: Feature Planning/GlusterFS 3.7/rest-api.md
-  - Archipelago Integration: Feature Planning/GlusterFS 3.7/Archipelago Integration.md
-- Feature Planning 3.6:
-  - index: Feature Planning/GlusterFS 3.6/index.md
-  - better-ssl: Feature Planning/GlusterFS 3.6/better-ssl.md
-  - heterogeneous-bricks: Feature Planning/GlusterFS 3.6/heterogeneous-bricks.md
-  - disperse: Feature Planning/GlusterFS 3.6/disperse.md
-  - Glusterd Volume Locks: Feature Planning/GlusterFS 3.6/glusterd volume locks.md
-  - Persistent AFR Changelog xattributes: Feature Planning/GlusterFS 3.6/Persistent AFR Changelog xattributes.md
-  - Better Logging: Feature Planning/GlusterFS 3.6/Better Logging.md
-  - Better Peer Identification: Feature Planning/GlusterFS 3.6/Better Peer Identification.md
-  - Gluster Volume Snapshot: Feature Planning/GlusterFS 3.6/Gluster Volume Snapshot.md
-  - Gluster User Serviceable Snapshots: Feature Planning/GlusterFS 3.6/Gluster User Serviceable Snapshots.md
-  - afrv2: Feature Planning/GlusterFS 3.6/afrv2.md
-  - RDMA Improvements: Feature Planning/GlusterFS 3.6/RDMA Improvements.md
-  - Server-side Barrier feature: Feature Planning/GlusterFS 3.6/Server-side Barrier feature.md
-  - New Style Replication: Feature Planning/GlusterFS 3.6/New Style Replication.md
-  - Thousand Node Gluster: Feature Planning/GlusterFS 3.6/Thousand Node Gluster.md
-- Feature Planning 3.5:
-  - index: Feature Planning/GlusterFS 3.5/index.md
-  - AFR CLI enhancements: Feature Planning/GlusterFS 3.5/AFR CLI enhancements.md
-  - Exposing Volume Capabilities: Feature Planning/GlusterFS 3.5/Exposing Volume Capabilities.md
-  - File Snapshot: Feature Planning/GlusterFS 3.5/File Snapshot.md
-  - gfid access: Feature Planning/GlusterFS 3.5/gfid access.md
-  - On wire Compression + Decompression: Feature Planning/GlusterFS 3.5/Onwire Compression-Decompression.md
-  - Quota Scalability: Feature Planning/GlusterFS 3.5/Quota Scalability.md
-  - readdir ahead: Feature Planning/GlusterFS 3.5/readdir ahead.md
-  - Zerofill: Feature Planning/GlusterFS 3.5/Zerofill.md
-  - Brick Failure Detection: Feature Planning/GlusterFS 3.5/Brick Failure Detection.md
-  - Disk Encryption: Feature Planning/GlusterFS 3.5/Disk Encryption.md
-- GlusterFS Tools:
-  - GlusterFS Tools List: GlusterFS Tools/README.md
-  - glusterfind: GlusterFS Tools/glusterfind.md
-  - gfind missing files: GlusterFS Tools/gfind_missing_files.md
-- Troubleshooting Guide:
-  - Index: Troubleshooting/README.md
-  - gfid to path: Troubleshooting/gfid-to-path.md
-  - Split Brain: Troubleshooting/split-brain.md
-  - Statedump: Troubleshooting/statedump.md
+  - [Common Criteria](./Install-Guide/Common_criteria.md)
+  - [Quick start to Install](./Install-Guide/Quick_start.md)
+  - [Setting up in virtual machines](./Install-Guide/Setup_virt.md)
+  - [Setting up on physical servers](./Install-Guide/Setup_Bare_metal.md)
+  - [Deploying in AWS](./Install-Guide/Setup_aws.md)
+  - [Install](./Install-Guide/Install.md)
+  - [Configure](./Install-Guide/Configure.md)
+- [Administrator Guide](./Administrator Guide/README.md)
+  - [GlusterFS Introduction](./Administrator Guide/GlusterFS Introduction.md)
+  - [Glossary](./Administrator Guide/glossary.md)
+  - [Did You Know](./Administrator Guide/Did You Know.md)
+  - [Storage Pools](./Administrator Guide/Storage Pools.md)
+  - [Compiling RPMS](./Administrator Guide/Compiling RPMS.md)
+  - [Managing the Gluster Service](./Administrator Guide/Start Stop Daemon.md)
+  - [Gluster Console Guide](./Administrator Guide/Console.md)
+  - [Access Control Lists](./Administrator Guide/Access Control Lists.md)
+  - [Setting Up Clients](./Administrator Guide/Setting Up Clients.md)
+  - [Setting Up Volumes](./Administrator Guide/Setting Up Volumes.md)
+  - [Managing Volumes](./Administrator Guide/Managing Volumes.md)
+  - [Building QEMU with gfapi For Debian Based Systems](./Administrator Guide/Building QEMU With gfapi For Debian Based Systems.md)
+  - [GlusterFS Filter](./Administrator Guide/GlusterFS Filter.md)
+  - [Resolving Peer Rejected State](./Administrator Guide/Resolving Peer Rejected.md)
+  - [Logging](./Administrator Guide/Logging.md)
+  - [Brick Naming Conventions](./Administrator Guide/Brick Naming Conventions.md)
+  - [Geo Replication](./Administrator Guide/Geo Replication.md)
+  - [Distributed Geo Replication](./Administrator Guide/Distributed Geo Replication.md)
+  - [Directory Quota](./Administrator Guide/Directory Quota.md)
+  - [Managing Snapshots](./Administrator Guide/Managing Snapshots.md)
+  - [Monitoring Workload](./Administrator Guide/Monitoring Workload.md)
+  - [Object Storage](./Administrator Guide/Object Storage.md)
+  - [GlusterFS Cinder](./Administrator Guide/GlusterFS Cinder.md)
+  - [GlusterFS Keystone Quickstart](./Administrator Guide/GlusterFS Keystone Quickstart.md)
+  - [Hadoop](./Administrator Guide/Hadoop.md)
+  - [Gluster On ZFS](./Administrator Guide/Gluster On ZFS.md)
+  - [SSL](./Administrator Guide/SSL.md)
+  - [Puppet Gluster](./Administrator Guide/Puppet.md)
+  - [RDMA Transport](./Administrator Guide/RDMA Transport.md)
+  - [GlusterFS iSCSI](./Administrator Guide/GlusterFS iSCSI.md)
+  - [Linux Kernel Tuning](./Administrator Guide/Linux Kernel Tuning.md)
+  - [Troubleshooting](./Administrator Guide/Troubleshooting.md)
+  - [Network Configurations Techniques](./Administrator Guide/Network Configurations Techniques.md)
+  - [Performance Testing](./Administrator Guide/Performance Testing.md)
+- [Developers Guide](./Developer-guide/Developers Index.md)
+  - [Simplified Development Workflow](./Developer-guide/Simplified Development Workflow.md)
+  - [Development Workflow](./Developer-guide/Development Workflow.md)
+  - [Coding Standards](./Developer-guide/coding-standard.md)
+  - [Compiling RPMS](./Developer-guide/Compiling RPMS.md)
+  - [Building GlusterFS](./Developer-guide/Building GlusterFS.md)
+  - [Projects](./Developer-guide/Projects.md)
+  - [Language Bindings](./Developer-guide/Language Bindings.md)
+  - [Easy Fix Bugs](./Developer-guide/Easy Fix Bugs.md)
+  - [Fixing issues for static code analysis](./Developer-guide/Fixing issues reported by tools for static code analysis.md)
+  - [Backport Wishlist](./Developer-guide/Backport Wishlist.md)
+  - [Backport Guidelines](./Developer-guide/Backport Guidelines.md)
+  - [Adding File Operations](./Developer-guide/adding-fops.md)
+  - [Automatic File Replication](./Developer-guide/afr.md)
+  - [History of Locking in AFR](./Developer-guide/afr-locks-evolution.md)
+  - [Seal heal Daemon](./Developer-guide/afr-self-heal-daemon.md)
+  - [inode datastructure](./Developer-guide/datastructure-inode.md)
+  - [iobuf datastructure](./Developer-guide/datastructure-iobuf.md)
+  - [mem-pool datastructure](./Developer-guide/datastructure-mem-pool.md)
+  - [gfapi Symbol Versions](./Developer-guide/gfapi-symbol-versions.md)
+  - [Daemon Management Framework](./Developer-guide/daemon-management-framework.md)
+  - [Block Device Translator](./Developer-guide/bd-xlator.md)
+  - [Write Behind Translator](./Developer-guide/write-behind.md)
+  - [Translator Development](./Developer-guide/translator-development.md)
+  - [Storage/posix Translator](./Developer-guide/posix.md)
+  - [Compression Translator](./Developer-guide/network_compression.md)
+  - [Unit Tests in GlusterFS](./Developer-guide/unittest.md)
+  - [Using Gluster Test Framework](./Developer-guide/Using Gluster Test Framework.md)
+  - [Jenkins Infrastructure](./Developer-guide/Jenkins Infrastructure.md)
+  - [Jenkins Manual Setup](./Developer-guide/Jenkins Manual Setup.md)
+  - [Coredump Analysis](./Developer-guide/coredump-analysis.md)
+  - [Bug Reporting Guidelines](./Developer-guide/Bug Reporting Guidelines.md)
+  - [Bug Triage Guidelines](./Developer-guide/Bug Triage.md)
+  - [Bug Report Life Cycle](./Developer-guide/Bug report Life Cycle.md)
+  - [Guidelines for Maintainers](./Developer-guide/Guidelines For Maintainers.md)
+  - [Versioning](./Developer-guide/versioning.md)
+  - [GlusterFS Release Process](./Developer-guide/GlusterFS Release process.md)
+  - [Bug Reporting Template](./Developer-guide/Bug reporting template.md)
+- [Upgrade-Guide](./Upgrade-Guide/README.md)
+  - [Upgrade to 3.5](./Upgrade-Guide/upgrade_to_3.5.md)
+  - [Upgrade to 3.6](./Upgrade-Guide/upgrade_to_3.6.md)
+  - [Upgrade to 3.7](./Upgrade-Guide/Upgrade to 3.7.md)
+- [Features](./Features/README.md)
+  - [AFR Arbiter Volumes](./Features/afr-arbiter-volumes.md)
+  - [bitrot docs](./Features/bitrot-docs.md)
+  - [bitrot memory usage](./Features/memory-usage.md)
+  - [Object Versioning](./Features/object-versioning.md)
+  - [shard](./Features/shard.md)
+  - [upcall](./Features/upcall.md)
+  - [quota object count](./Features/quota-object-count.md)
+  - [nfs-ganesha integration](./Features/glusterfs_nfs-ganesha_integration.md)
+  - [tiering](./Features/tier.md)
+  - [trash_xlator](./Features/trash_xlator.md)
+  - [AFR Statistics](./Features/afr-statistics.md)
+  - [AFR ver1](./Features/afr-v1.md)
+  - [Brick Failure Detection](./Features/brick-failure-detection.md)
+  - [File Snapshot](./Features/file-snapshot.md)
+  - [gfid Access](./Features/gfid-access.md)
+  - [Quota Scalability](./Features/quota-scalability.md)
+  - [readdir ahead](./Features/readdir-ahead.md)
+  - [zerofill](./Features/zerofill.md)
+  - [Distributed Hash Tables](./Features/dht.md)
+  - [heal info and split brain resolution](./Features/heal-info-and-split-brain-resolution.md)
+  - [libgfapi](./Features/libgfapi.md)
+  - [Mount Gluster Volume using pNFS](./Features/mount_gluster_volume_using_pnfs.md)
+  - [Non Uniform File Access](./Features/nufa.md)
+  - [ovirt integration](./Features/ovirt-integration.md)
+  - [qemu integration](./Features/qemu-integration.md)
+  - [RDMA Connection Manager](./Features/rdmacm.md)
+  - [Rebalance](./Features/rebalance.md)
+  - [Server Quorum](./Features/server-quorum.md)
+  - [Write Once Read Many](./Features/worm.md)
+  - [Distributed Geo Replication](./Features/distributed-geo-rep.md)
+  - [libgf Changelog](./Features/libgfchangelog.md)
+  - [meta xlator](./Features/meta.md)
+- [Release Notes](./release-notes/index.md)
+  - [3.7.1](./release-notes/3.7.1.md)
+  - [3.7.0](./release-notes/3.7.0.md)
+  - [3.6.3](./release-notes/3.6.3.md)
+  - [3.6.0](./release-notes/3.6.0.md)
+  - [3.5.4](./release-notes/3.5.4.md)
+  - [3.5.3](./release-notes/3.5.3.md)
+  - [3.5.2](./release-notes/3.5.2.md)
+  - [3.5.1](./release-notes/3.5.1.md)
+  - [3.5.0](./release-notes/3.5.0.md)
+- [Feature Planning](./Feature Planning/index.md)
+  - [New Feature Template](./Feature Planning/Feature Template.md)
+- [Feature Planning 4.0](./Feature Planning/GlusterFS 4.0/index.md)
+  - [DHT Scalability](./Feature Planning/GlusterFS 4.0/dht-scalability.md)
+  - [Caching](./Feature Planning/GlusterFS 4.0/caching.md)
+  - [Split Network](./Feature Planning/GlusterFS 4.0/Split Network.md)
+  - [Better brick Management](./Feature Planning/GlusterFS 4.0/Better Brick Mgmt.md)
+  - [Compression Dedup](./Feature Planning/GlusterFS 4.0/Compression Dedup.md)
+  - [Composite Operations](./Feature Planning/GlusterFS 4.0/composite-operations.md)
+  - [stat-xattr-cache](./Feature Planning/GlusterFS 4.0/stat-xattr-cache.md)
+  - [Code Generation](./Feature Planning/GlusterFS 4.0/code-generation.md)
+  - [Volgen rewrite](./Feature Planning/GlusterFS 4.0/volgen-rewrite.md)
+- [Feature Planning 3.7](./Feature Planning/GlusterFS 3.7/index.md)
+  - [Small File Performance](./Feature Planning/GlusterFS 3.7/Small File Performance.md)
+  - [Data Classification](./Feature Planning/GlusterFS 3.7/Data Classification.md)
+  - [Trash](./Feature Planning/GlusterFS 3.7/Trash.md)
+  - [Object Count](./Feature Planning/GlusterFS 3.7/Object Count.md)
+  - [SE Linux Integration](./Feature Planning/GlusterFS 3.7/SE Linux Integration.md)
+  - [Exports and Netgroups Authentication](./Feature Planning/GlusterFS 3.7/Exports and Netgroups Authentication.md)
+  - [Policy based Split-brain Resolution](./Feature Planning/GlusterFS 3.7/Policy based Split-brain Resolution.md)
+  - [BitRot](./Feature Planning/GlusterFS 3.7/BitRot.md)
+  - [Gnotify](./Feature Planning/GlusterFS 3.7/Gnotify.md)
+  - [Improve Rebalance Performance](./Feature Planning/GlusterFS 3.7/Improve Rebalance Performance.md)
+  - [Upcall Infrastructure](./Feature Planning/GlusterFS 3.7/Upcall Infrastructure.md)
+  - [Gluster CLI for NFS Ganesha](./Feature Planning/GlusterFS 3.7/Gluster CLI for NFS Ganesha.md)
+  - [Scheduling of Snapshot](./Feature Planning/GlusterFS 3.7/Scheduling of Snapshot.md)
+  - [Sharding xlator](./Feature Planning/GlusterFS 3.7/Sharding xlator.md)
+  - [HA for Ganesha](./Feature Planning/GlusterFS 3.7/HA for Ganesha.md)
+  - [Clone of Snapshot](./Feature Planning/GlusterFS 3.7/Clone of Snapshot.md)
+  - [Easy addition of Custom Translators](./Feature Planning/GlusterFS 3.7/Easy addition of Custom Translators.md)
+  - [Outcast](./Feature Planning/GlusterFS 3.7/Outcast.md)
+  - [rest-api](./Feature Planning/GlusterFS 3.7/rest-api.md)
+  - [Archipelago Integration](./Feature Planning/GlusterFS 3.7/Archipelago Integration.md)
+- [Feature Planning 3.6](./Feature Planning/GlusterFS 3.6/index.md)
+  - [better-ssl](./Feature Planning/GlusterFS 3.6/better-ssl.md)
+  - [heterogeneous-bricks](./Feature Planning/GlusterFS 3.6/heterogeneous-bricks.md)
+  - [disperse](./Feature Planning/GlusterFS 3.6/disperse.md)
+  - [Glusterd Volume Locks](./Feature Planning/GlusterFS 3.6/glusterd volume locks.md)
+  - [Persistent AFR Changelog xattributes](./Feature Planning/GlusterFS 3.6/Persistent AFR Changelog xattributes.md)
+  - [Better Logging](./Feature Planning/GlusterFS 3.6/Better Logging.md)
+  - [Better Peer Identification](./Feature Planning/GlusterFS 3.6/Better Peer Identification.md)
+  - [Gluster Volume Snapshot](./Feature Planning/GlusterFS 3.6/Gluster Volume Snapshot.md)
+  - [Gluster User Serviceable Snapshots](./Feature Planning/GlusterFS 3.6/Gluster User Serviceable Snapshots.md)
+  - [afrv2](./Feature Planning/GlusterFS 3.6/afrv2.md)
+  - [RDMA Improvements](./Feature Planning/GlusterFS 3.6/RDMA Improvements.md)
+  - [Server-side Barrier feature](./Feature Planning/GlusterFS 3.6/Server-side Barrier feature.md)
+  - [New Style Replication](./Feature Planning/GlusterFS 3.6/New Style Replication.md)
+  - [Thousand Node Gluster](./Feature Planning/GlusterFS 3.6/Thousand Node Gluster.md)
+- [Feature Planning 3.5](./Feature Planning/GlusterFS 3.5/index.md)
+  - [AFR CLI enhancements](./Feature Planning/GlusterFS 3.5/AFR CLI enhancements.md)
+  - [Exposing Volume Capabilities](./Feature Planning/GlusterFS 3.5/Exposing Volume Capabilities.md)
+  - [File Snapshot](./Feature Planning/GlusterFS 3.5/File Snapshot.md)
+  - [gfid access](./Feature Planning/GlusterFS 3.5/gfid access.md)
+  - [On wire Compression + Decompression](./Feature Planning/GlusterFS 3.5/Onwire Compression-Decompression.md)
+  - [Quota Scalability](./Feature Planning/GlusterFS 3.5/Quota Scalability.md)
+  - [readdir ahead](./Feature Planning/GlusterFS 3.5/readdir ahead.md)
+  - [Zerofill](./Feature Planning/GlusterFS 3.5/Zerofill.md)
+  - [Brick Failure Detection](./Feature Planning/GlusterFS 3.5/Brick Failure Detection.md)
+  - [Disk Encryption](./Feature Planning/GlusterFS 3.5/Disk Encryption.md)
+- [GlusterFS Tools](./GlusterFS Tools/README.md)
+  - [glusterfind](./GlusterFS Tools/glusterfind.md)
+  - [gfind missing files](./GlusterFS Tools/gfind_missing_files.md)
+- [Troubleshooting Guide](./Troubleshooting/README.md)
+  - [gfid to path](./Troubleshooting/gfid-to-path.md)
+  - [Split Brain](./Troubleshooting/split-brain.md)
+  - [Statedump](./Troubleshooting/statedump.md)
