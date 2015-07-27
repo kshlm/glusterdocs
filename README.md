@@ -1,0 +1,1 @@
+This is a test of hosting Gluster Docs on gitbook.
